@@ -889,8 +889,8 @@ function CalendarPage() {
         console.log("✏️ 予定の時間が変更されました:", resizeInfo.event);
         const updatedEvent = {
             id: resizeInfo.event.id,
-            start: resizeInfo.event.start.toISOString(),
-            end: resizeInfo.event.end.toISOString(),
+            start: resizeInfo.event.start ? resizeInfo.event.start.toISOString() : new Date().toISOString(),
+            end: resizeInfo.event.end ? resizeInfo.event.end.toISOString() : resizeInfo.event.start?.toISOString() || new Date().toISOString(),
             engagement: resizeInfo.event.title.split(" - ")[0] || "",
             activity: resizeInfo.event.title.split(" - ")[1] || "",
             location: resizeInfo.event.extendedProps.details.split(" / ")[0] || "",
