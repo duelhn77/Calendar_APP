@@ -879,12 +879,12 @@ function CalendarPage() {
             activity: clickInfo.event.title.split(" - ")[1] || "",
             location: clickInfo.event.extendedProps.details.split(" / ")[0] || "",
             details: clickInfo.event.extendedProps.details.split(" / ")[1] || "",
-            start: clickInfo.event.start.toISOString(),
-            end: clickInfo.event.end?.toISOString() || clickInfo.event.start.toISOString()
+            start: clickInfo.event.start ? clickInfo.event.start.toISOString() : new Date().toISOString(),
+            end: clickInfo.event.end ? clickInfo.event.end.toISOString() : clickInfo.event.start ? clickInfo.event.start.toISOString() : new Date().toISOString()
         });
         setSelectedRange({
-            start: clickInfo.event.start,
-            end: clickInfo.event.end
+            start: clickInfo.event.start ?? new Date(),
+            end: clickInfo.event.end ?? clickInfo.event.start ?? new Date()
         });
         setIsOpen(true);
     };
@@ -943,8 +943,8 @@ function CalendarPage() {
         const { event } = eventDropInfo;
         const updatedEvent = {
             id: event.id,
-            start: event.start.toISOString(),
-            end: event.end?.toISOString() || event.start.toISOString()
+            start: event.start ? event.start.toISOString() : new Date().toISOString(),
+            end: event.end ? event.end.toISOString() : event.start ? event.start.toISOString() : new Date().toISOString()
         };
         console.log("✅ 更新するデータ:", updatedEvent);
         try {
@@ -993,7 +993,7 @@ function CalendarPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/calendar/page.tsx",
-                lineNumber: 247,
+                lineNumber: 252,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1034,7 +1034,7 @@ function CalendarPage() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/app/calendar/page.tsx",
-                        lineNumber: 249,
+                        lineNumber: 254,
                         columnNumber: 9
                     }, this),
                     isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Modal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Modal"], {
@@ -1047,19 +1047,19 @@ function CalendarPage() {
                         selectedEvent: selectedEvent
                     }, void 0, false, {
                         fileName: "[project]/src/app/calendar/page.tsx",
-                        lineNumber: 274,
+                        lineNumber: 279,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/calendar/page.tsx",
-                lineNumber: 248,
+                lineNumber: 253,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/calendar/page.tsx",
-        lineNumber: 246,
+        lineNumber: 251,
         columnNumber: 5
     }, this);
 }

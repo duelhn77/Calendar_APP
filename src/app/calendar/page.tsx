@@ -8,6 +8,9 @@ import { DateSelectArg } from "@fullcalendar/core";
 import { EventData } from "@/types/EventData";
 import { Modal } from "@/components/Modal";
 import Sidebar from "@/components/Sidebar";
+import { EventClickArg } from "@fullcalendar/core";
+import { EventDropArg } from "@fullcalendar/core";
+import { EventInput } from "@fullcalendar/core";
 
 export default function CalendarPage() {
   // const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -15,7 +18,7 @@ export default function CalendarPage() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedRange, setSelectedRange] = useState<{ start: Date; end: Date } | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<EventData | null>(null);
-  const [events, setEvents] = useState([]);
+  const [events, setEvents] = useState<EventInput[]>([]);
 
   // ✅ Google Sheets から予定データを取得
   const fetchEventsFromSheets = async () => {
@@ -117,7 +120,7 @@ export default function CalendarPage() {
   };
 
   // ✅ 予定がクリックされたときにホップアップを表示
-  const handleEventClick = (clickInfo: any) => {
+  const handleEventClick = (clickInfo: EventClickArg) => {
     console.log("📅 クリックされたイベント:", clickInfo.event);
   
     setSelectedEvent({
@@ -127,15 +130,17 @@ export default function CalendarPage() {
       activity: clickInfo.event.title.split(" - ")[1] || "",
       location: clickInfo.event.extendedProps.details.split(" / ")[0] || "",
       details: clickInfo.event.extendedProps.details.split(" / ")[1] || "",
-      start: clickInfo.event.start.toISOString(),
-      end: clickInfo.event.end?.toISOString() || clickInfo.event.start.toISOString(),
+      start: clickInfo.event.start ? clickInfo.event.start.toISOString() : new Date().toISOString(),
+      end: clickInfo.event.end ? clickInfo.event.end.toISOString() : clickInfo.event.start ? clickInfo.event.start.toISOString() : new Date().toISOString(),
+
     });
     
   
     setSelectedRange({
-      start: clickInfo.event.start,
-      end: clickInfo.event.end,
+      start: clickInfo.event.start ?? new Date(),
+      end: clickInfo.event.end ?? clickInfo.event.start ?? new Date()
     });
+    
   
     setIsOpen(true);
   };
@@ -194,14 +199,14 @@ export default function CalendarPage() {
     }
   };
   
-  const handleEventMove = async (eventDropInfo: any) => {
+  const handleEventMove = async (eventDropInfo: EventDropArg) => {
     console.log("📌 予定の移動:", eventDropInfo);
   
     const { event } = eventDropInfo;
     const updatedEvent = {
       id: event.id, // ✅ DataId を取得
-      start: event.start.toISOString(),
-      end: event.end?.toISOString() || event.start.toISOString(), // end がない場合は start と同じに
+      start: event.start ? event.start.toISOString() : new Date().toISOString(),
+      end: event.end ? event.end.toISOString() : event.start ? event.start.toISOString() : new Date().toISOString(), // end がない場合は start と同じに
     };
   
     console.log("✅ 更新するデータ:", updatedEvent);
