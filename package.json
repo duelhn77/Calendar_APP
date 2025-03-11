@@ -16,7 +16,7 @@
     "exceljs": "^4.4.0",
     "googleapis": "^146.0.0",
     "json2csv": "^6.0.0-alpha.2",
-    "next": "15.2.1",
+    "next": "^15.2.1",
     "react": "^19.0.0",
     "react-calendar": "^5.1.0",
     "react-datepicker": "^8.1.0",

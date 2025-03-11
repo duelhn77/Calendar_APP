@@ -1,0 +1,3 @@
+{
+  "/api/getUserRole/route": "app/api/getUserRole/route.js"
+}
