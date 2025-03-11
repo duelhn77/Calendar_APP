@@ -26,7 +26,7 @@ export async function POST(req: Request) {
       });
   
       const rows = response.data.values || [];
-      let rowIndex = rows.findIndex((row) => row[0] === id);
+      const rowIndex = rows.findIndex((row) => row[0] === id);
   
       if (rowIndex === -1) {
         throw new Error("❌ 削除対象のデータが見つかりません");

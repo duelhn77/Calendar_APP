@@ -20,6 +20,7 @@ export async function POST(req: Request) {
     try {
         requestBody = await req.json();
     } catch (error) {
+        console.error("APIエラー:", error); // エラーをログ出力
         return NextResponse.json({ error: "Invalid JSON format" }, { status: 400 });
     }
 

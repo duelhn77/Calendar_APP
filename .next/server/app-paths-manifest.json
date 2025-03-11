@@ -10,5 +10,6 @@
   "/api/saveEvent/route": "app/api/saveEvent/route.js",
   "/api/authenticateUser/route": "app/api/authenticateUser/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/updateEvent/route": "app/api/updateEvent/route.js"
+  "/api/updateEvent/route": "app/api/updateEvent/route.js",
+  "/api/deleteEvent/route": "app/api/deleteEvent/route.js"
 }

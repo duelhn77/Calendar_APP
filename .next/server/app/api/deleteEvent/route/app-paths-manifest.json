@@ -1,0 +1,3 @@
+{
+  "/api/deleteEvent/route": "app/api/deleteEvent/route.js"
+}
