@@ -168,6 +168,7 @@ export default function CalendarPage() {
     }
   };
   
+  
   const handleEventResize = async (resizeInfo: EventClickArg) => {
     console.log("✏️ 予定の時間が変更されました:", resizeInfo.event);
   

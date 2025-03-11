@@ -6,5 +6,6 @@
   "/api/authenticateUser/route": "app/api/authenticateUser/route.js",
   "/calendar/page": "app/calendar/page.js",
   "/api/getUserRole/route": "app/api/getUserRole/route.js",
-  "/api/getEvents/route": "app/api/getEvents/route.js"
+  "/api/getEvents/route": "app/api/getEvents/route.js",
+  "/api/updateEvent/route": "app/api/updateEvent/route.js"
 }
