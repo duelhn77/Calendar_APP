@@ -4,14 +4,15 @@ import Select from "react-select";
 interface ExportModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onExport: (startDate: string, endDate: string, format: string) => void;
+  onExport: (startDate: string, endDate: string) => void;
 }
 
 const ExportModal: React.FC<ExportModalProps> = ({ isOpen, onClose, onExport }) => {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [format, setFormat] = useState("xlsx");
+  // const [format, setFormat] = useState("xlsx");
 
+ 
   if (!isOpen) return null;
 
   return (
@@ -45,7 +46,7 @@ const ExportModal: React.FC<ExportModalProps> = ({ isOpen, onClose, onExport }) 
 
 
         <div className="export-modal-buttons">
-          <button className="export-button" onClick={() => onExport(startDate, endDate, format)}>📤 エクスポート</button>
+          <button className="export-button" onClick={() => onExport(startDate, endDate)}>📤 エクスポート</button>
           <button className="export-button cancel" onClick={onClose}>キャンセル</button>
         </div>
       </div>

@@ -1,15 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/login/page": "app/login/page.js",
-  "/calendar/page": "app/calendar/page.js",
-  "/api/getEvents/route": "app/api/getEvents/route.js",
-  "/api/getUserRole/route": "app/api/getUserRole/route.js",
-  "/api/fetchLocations/route": "app/api/fetchLocations/route.js",
-  "/api/fetchActivities/route": "app/api/fetchActivities/route.js",
-  "/api/fetchEngagements/route": "app/api/fetchEngagements/route.js",
-  "/api/saveEvent/route": "app/api/saveEvent/route.js",
   "/api/authenticateUser/route": "app/api/authenticateUser/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/updateEvent/route": "app/api/updateEvent/route.js",
-  "/api/deleteEvent/route": "app/api/deleteEvent/route.js"
+  "/calendar/page": "app/calendar/page.js",
+  "/api/getUserRole/route": "app/api/getUserRole/route.js",
+  "/api/getEvents/route": "app/api/getEvents/route.js"
 }

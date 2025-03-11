@@ -18,12 +18,6 @@ interface Engagement {
   name: string;
 }
 
-interface Activity {
-  engagement: string;
-  activity_id: string;
-  activity: string;
-}
-
 export function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, selectedEvent }: ModalProps) {
   const [engagement, setEngagement] = useState<{ value: string; label: string } | null>(null);
   const [engagements, setEngagements] = useState<Engagement[]>([]);

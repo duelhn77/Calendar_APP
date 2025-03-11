@@ -147,7 +147,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     children: "作業情報を入力"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 128,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this),
                 selectedRange && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -165,7 +165,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 130,
+                    lineNumber: 124,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -177,12 +177,12 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                             children: "エンゲージメント"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 138,
+                            lineNumber: 132,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 138,
+                            lineNumber: 132,
                             columnNumber: 34
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
@@ -206,13 +206,13 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                             placeholder: "エンゲージメントを選択"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 139,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 137,
+                    lineNumber: 131,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -224,12 +224,12 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                             children: "Activity"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 165,
+                            lineNumber: 159,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 165,
+                            lineNumber: 159,
                             columnNumber: 32
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
@@ -256,20 +256,20 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                             placeholder: "Activityを選択"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Modal.tsx",
-                            lineNumber: 166,
+                            lineNumber: 160,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 164,
+                    lineNumber: 158,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                     children: "作業場所"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 190,
+                    lineNumber: 184,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
@@ -290,7 +290,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 191,
+                    lineNumber: 185,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -302,7 +302,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     children: "作業内容"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 210,
+                    lineNumber: 204,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -316,7 +316,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 214,
+                    lineNumber: 208,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -353,7 +353,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     children: selectedEvent ? "更新" : "追加"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 224,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, this),
                 selectedEvent && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -369,7 +369,7 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     children: "削除"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 264,
+                    lineNumber: 258,
                     columnNumber: 3
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -377,18 +377,18 @@ function Modal({ isOpen, onClose, onSubmit, onUpdate, onDelete, selectedRange, s
                     children: "キャンセル"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Modal.tsx",
-                    lineNumber: 274,
+                    lineNumber: 268,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Modal.tsx",
-            lineNumber: 127,
+            lineNumber: 121,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Modal.tsx",
-        lineNumber: 126,
+        lineNumber: 120,
         columnNumber: 5
     }, this);
 }
@@ -419,7 +419,7 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
     _s();
     const [startDate, setStartDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [endDate, setEndDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [format, setFormat] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("xlsx");
+    // const [format, setFormat] = useState("xlsx");
     if (!isOpen) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -428,7 +428,7 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                 onClick: onClose
             }, void 0, false, {
                 fileName: "[project]/src/components/ExportModal.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -439,14 +439,14 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                         children: "📥 データをエクスポート"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                         children: "開始日"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -455,14 +455,14 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                         onChange: (e)=>setStartDate(e.target.value)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                         children: "終了日"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -471,14 +471,14 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                         onChange: (e)=>setEndDate(e.target.value)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                         children: "ファイル形式"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 32,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$select$2f$dist$2f$react$2d$select$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
@@ -500,7 +500,7 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,11 +508,11 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: "export-button",
-                                onClick: ()=>onExport(startDate, endDate, format),
+                                onClick: ()=>onExport(startDate, endDate),
                                 children: "📤 エクスポート"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExportModal.tsx",
-                                lineNumber: 48,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -521,25 +521,25 @@ const ExportModal = ({ isOpen, onClose, onExport })=>{
                                 children: "キャンセル"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ExportModal.tsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ExportModal.tsx",
-                        lineNumber: 47,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ExportModal.tsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 };
-_s(ExportModal, "oZLRN28ku5zIpxFErTjbQyM0FEU=");
+_s(ExportModal, "AUYLIRJgd5BhwiIrAyJW/xUF/eY=");
 _c = ExportModal;
 const __TURBOPACK__default__export__ = ExportModal;
 var _c;
@@ -775,7 +775,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function CalendarPage() {
     _s();
-    const [isAuthenticated, setIsAuthenticated] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    // const [isAuthenticated, setIsAuthenticated] = useState(false);
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [selectedRange, setSelectedRange] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -979,11 +979,13 @@ function CalendarPage() {
             if (!localStorage.getItem("isAuthenticated")) {
                 router.push("/login");
             } else {
-                setIsAuthenticated(true);
+                // setIsAuthenticated(true);
                 fetchEventsFromSheets();
             }
         }
-    }["CalendarPage.useEffect"], []);
+    }["CalendarPage.useEffect"], [
+        router
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
             display: "flex"
@@ -1061,7 +1063,7 @@ function CalendarPage() {
         columnNumber: 5
     }, this);
 }
-_s(CalendarPage, "dp0WA4Vlo72z+Xr/lGR4GKEBmzg=", false, function() {
+_s(CalendarPage, "Npk6ei7DnS+MkmqNg7IggHy/M9s=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
     ];

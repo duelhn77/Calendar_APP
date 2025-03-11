@@ -10,7 +10,7 @@ import { Modal } from "@/components/Modal";
 import Sidebar from "@/components/Sidebar";
 
 export default function CalendarPage() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  // const [isAuthenticated, setIsAuthenticated] = useState(false);
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedRange, setSelectedRange] = useState<{ start: Date; end: Date } | null>(null);
@@ -237,10 +237,10 @@ export default function CalendarPage() {
     if (!localStorage.getItem("isAuthenticated")) {
       router.push("/login");
     } else {
-      setIsAuthenticated(true);
+      // setIsAuthenticated(true);
       fetchEventsFromSheets();
     }
-  }, []);
+  }, [router]);
 
   return (
     <div style={{ display: "flex" }}>
